@@ -1,0 +1,38 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.level-control {
+  display: flex;
+  flex-direction: column; /* Display elements in a column */
+  align-items: center;
+}
+
+.level-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin: 5px 0; /* Add some margin for spacing between the buttons */
+}
+
+.level-indicator {
+  display: flex;
+  flex-direction: column; /* Display level and circle in a column */
+  align-items: center;
+}
+
+.level-circle {
+  width: 30px;
+  height: 30px;
+  background-color: #7ca6d3;
+  color: #fff;
+  border-radius: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: bolder;
+  margin-bottom: 6px;
+  margin-top: 1px; /* Add margin to separate the circle from the buttons */
+}
